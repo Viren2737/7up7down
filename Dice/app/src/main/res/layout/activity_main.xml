@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+    <ImageView
+        android:id="@+id/image_view_dice1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40sp"
+        android:src="@drawable/dice1"
+         />
+<!--        <TextView-->
+<!--            android:id="@+id/textView1"-->
+<!--            android:layout_below="@+id/image_view_dice1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="1"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="20sp"-->
+<!--            android:textSize="40sp"-->
+<!--            />-->
+
+        <ImageView
+            android:id="@+id/image_view_dice2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/dice1"
+            android:layout_marginLeft="20sp"
+             />
+<!--        <TextView-->
+<!--            android:id="@+id/textView"-->
+<!--            android:layout_below="@+id/image_view_dice2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="1"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="20sp"-->
+<!--            android:textSize="40sp"-->
+<!--            />-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_below="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press the button Below"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:layout_below="@+id/textView"
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Press"
+        >
+
+    </Button>
+
+</RelativeLayout>
